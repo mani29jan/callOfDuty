@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<title>Cod contests</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/stylesheet.css">
+<script src="https://kit.fontawesome.com/df9eb6e63a.js" crossorigin="anonymous"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: Black;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url(img/background1.jpg);
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url(img/background2.jpg);
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url(img/background3.jpg);
+  min-height: 400px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="bar" id="myNavbar">
+    
+    <a href="#home" class="bar-item button"><i class="fas fa-home"></i>HOME</a>
+    <a href="#tournaments" class="bar-item button hide-small"><i class="fas fa-flag-checkered"></i> TOURNAMENTS</a>
+    <a href="#prizes" class="bar-item button hide-small"><i class="fas fa-trophy"></i> PRIZES</a>
+    <a href="#players" class="bar-item button hide-small"><i class="fas fa-users"></i> PLAYERS</a>
+    <a href="#contact" class="bar-item button hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="bar-item button hide-small right hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block white hide hide-large hide-medium">
+    <a href="#tournaments" class="bar-item button" onclick="toggleFunction()">TOURNAMENTS</a>
+    <a href="#prizes" class="bar-item button" onclick="toggleFunction()"> PRIZES</a>
+    <a href="#players" class="bar-item button hide-small" onclick="toggleFunction()"> PLAYERS</a>
+    <a href="#contact" class="bar-item button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="bar-item button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 display-container" id="home">
+  <div class="display-middle" style="white-space:nowrap;">
+    <span><img src="img/blackout.png"></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="content" id="tournaments">
+  <h3 class="center"><b>TOURNAMENTS</b></h3>
+  <p class="center" style="font-size:30px;"><b>2 ROUNDS BLACKOUT TOURNAMENT OPEN FOR ANYONE!!</b></p>
+  <p class="center" style="font-size:30px;"><b>TOURNAMENT DATE- 02/22/29 (SATURDAY)</b></p>
+  <p class="center" style="font-size:20px;">Click on the game you want compete in and submit a request.</p>
+  <div class="desc-block">
+  <p style="font-size:20px;"><b>2 ROUNDS BLACKOUT GAME RULES:</b></p>
+  <p style="font-size:15px;"><b>$5 TO ENTER THE CONTEST</b></p>
+  <p style="font-size:15px;"><b>1st ROUND, SOLOs: SCORING, 1 POINT PER KILL + 2 POINTS IF YOU WIN (BEST 3 GAMES IN 3 HOURS) </b></p>
+  <p style="font-size:15px;"><b>2nd ROUND, SOLOs: SCORING, 1 POINT PER KILL + 2 POINTS IF YOU WIN (TOP 3 PLAYERS WILL GET PICKED FROM ROUND 1, BEST 3 GAMES IN 2 HOURS) </b></p>
+  <p style="font-size:15px;"><b>MUST RECORD THE GAME (proof of kills or wins) </b></p>
+  <p style="font-size:15px;"><b>PROVIDE BEST 3 GAMES STATS TO THE HOST </b></p>
+  <p style="font-size:15px;"><b>PLAYERS LIMIT: 25 </b></p>
+  </div><!--  <p class="center"><img src="img/blackoutcopy.png" style="width:200px;height:100px;"></p> -->
+  
+  <div class="desc-block">
+  <p style="font-size:20px;"><b>HOW TO ENTER 2 ROUNDS BLACKOUT TOURNAMENT:</b></p>
+  <p style="font-size:15px;"><b>CLICK ON THE GAME BELOW AND SUBMIT GOOGLE FORM</b></p>
+  <p style="font-size:15px;"><b>PAY $5 TO ENTER: CASH APP- $codcon  VENMO- mani29jan</b></p>
+  </div>
+  
+  <!-- Content -->
+
+			<div class="container1">
+			<a class="tooltip" href="https://docs.google.com/forms/d/e/1FAIpQLSex84cF5jP6gi1J4lPhTlctOenphbRf2GIDW5-VqykORi2eHg/viewform?usp=sf_link"target="popup"
+			onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSex84cF5jP6gi1J4lPhTlctOenphbRf2GIDW5-VqykORi2eHg/viewform?usp=sf_link',
+					'popup',
+					'width=500,height=700'); return false;">
+					<span class="tooltiptext">JOIN NOW!</span>
+				<img class="profile-pic" src="img/blackoutcopy.jpeg"
+					style="width: 250px; height: 150px;"></a>		
+			</div>
+		
+	<div class="container1">
+			<a class="tooltip">
+			<span class="tooltiptext">COMING SOON!</span>
+				<img class="profile-pic" src="img/codmw.jpg"
+					style="width: 250px; height: 150px;"></a>					
+			</div>
+	<!-- extra profiles if needed    
+			<div class="container">
+			<a href="../profiles/milo.html" target="_top">
+				<img class="profile-pic" src="../img/milo.JPG"
+					style="width: 300px; height: 300px;"></a>
+					<div class="middle">
+					<div class="text">Milo</div>
+					</div>
+			
+			-->
+		
+	</div>
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 display-container">
+  <div class="display-middle">
+    <span class="xxlarge text-white wide">PRIZES</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="content container" id="prizes">
+  <h3 class="center">PRIZES</h3>
+  <p class="center"><em>WIN CASH PRIZES AND MORE!!</em></p><br>
+ <div class="desc-block">
+<center>
+<table class="tftable" border="1">
+<tr><th>POSITIONS</th><th>PRIZES</th></tr>
+<tr><td><i class="fas fa-trophy" style="color:#C9AE5D;"></i>  1ST</td><td><i class="fas fa-dollar-sign"></i>100 CASH</td></tr>
+<tr><td><i class="fas fa-trophy" style="color:#CD7F32;"></i>  2ND</td><td><i class="fas fa-dollar-sign"></i>20 CASH</td></tr>
+<tr><td><i class="fas fa-trophy" style="color:#C0C0C0;"></i>  3RD</td><td><i class="fas fa-dollar-sign"></i>5 CASH</td></tr>
+</table>
+<p><b><em>*****VENMO, CASHAPP, PAYPAL*****</em></b></p><br>
+</center>
+</div>
+</div>
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 display-container">
+  <div class="display-middle">
+    <span class="xxlarge text-white wide">PLAYERS</span>
+  </div>
+</div>
+
+<div class="content container" id="players">
+  <h3 class="center"><b>2 ROUNDS BLACKOUT TOURNAMENT</b></h3>
+  <h3 class="center"><em>2 ROUNDS BLACKOUT TOURNAMENT PLAYERS(first round)</em></h3>
+  </div>
+<center>
+<table class="tftable" border="1">
+<tr><th>#</th><th>PLAYERS</th><th>MATCH 1</th><th>MATCH 2</th><th>MATCH 3</th><th>TOTAL POINTS</th></tr>
+<tr><td>1</td><td>Captaincleggnut</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>2</td><td>Stevenallery133 </td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>3</td><td>Dee_Killed_You</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>4</td><td>Bjonesss2001</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>5</td><td>MASSIV3 FLANG3</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>6</td><td>BurginStarr</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>7</td><td>Henandez_2010</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>8</td><td>Honey_Badge_XII</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>9</td><td>BlaCKTriCKSwAzE-</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>10</td><td>Haha you IDIOT</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>11</td><td>KMK J1mb0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>12</td><td>PackaThrax</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>13</td><td>DadBodLifegaming </td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>14</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>15</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>16</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>17</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>18</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>19</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>20</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>21</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>22</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>23</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>24</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>25</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table>
+</center>
+
+<div>
+  <h3 class="center" style="color:red"><a class="tooltip" href="https://docs.google.com/forms/d/e/1FAIpQLSd-GXYMOyGvIzngtopV1Oe_Inef5_jcCF-TeHHIiClJHxGLJw/viewform?usp=sf_link"target="popup"
+			onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd-GXYMOyGvIzngtopV1Oe_Inef5_jcCF-TeHHIiClJHxGLJw/viewform?usp=sf_link',
+					'popup',
+					'width=500,height=820'); return false;"><em>PROVIDE YOUR SCORES!</em></a></h3>
+  <p class="center" style="font-size:20px;"> once we have all the scores collected, final round will get updated with the top 3 players for the final.</p>
+  </div>
+				
+<div>
+  <h3 class="center"><em>2 ROUNDS BLACKOUT TOURNAMENT PLAYERS(final round)</em></h3>
+  </div>
+  <center>
+<table class="tftable" border="1">
+<tr><th>PLAYERS</th><th>MATCH 1</th><th>MATCH 2</th><th>MATCH 3</th><th>TOTAL POINTS</th></tr>
+<tr><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table>
+</center>
+
+<div>
+  <h3 class="center"><em>WINNERS</em></h3>
+  </div>
+<center>
+<table class="tftable" border="1">
+<tr><th>POSITIONS</th><th>PLAYERS</th></tr>
+<tr><td>1ST</td><td></td></tr>
+<tr><td>2ND</td><td></td></tr>
+<tr><td>3RD</td><td></td></tr>
+</table>
+<p><b><em>CONGRATULATIONS TOP PLAYERS FOR WINNING 2 ROUNDS BLACKOUT TOURNAMENT</em></b></p><br>
+</center>
+
+
+
+  
+  
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 display-container">
+  <div class="display-middle">
+     <span class="xxlarge text-white wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="content container" id="contact">
+  <h3 class="center">CONTACT</h3>
+  <p class="center"><em>I'd love your feedback!</em></p>
+
+  <div class="row w3-padding-32 w3-section">
+    <div class="col m4 container">
+    </div>
+    <div class="col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black xlarge margin-right"></i> SAN FRANCISCO, CA<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black xlarge margin-right"></i> Phone: N/A<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black xlarge margin-right"></i> Email: codcontests1@gmail.com<br>
+      </div>
+      <p>Reach out for any inquiries or leave me a note:</p>
+    <!--  <form action="/action_page.php" target="_blank">
+        <div class="row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="button black right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>  -->
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="center black">
+  <a href="#home" class="button light-grey"><i class="fa fa-arrow-up margin-right"></i>To the top</a>
+  <div class="xlarge section">
+    <i class="fab fa-facebook-f hover-opacity"></i>
+    <i class="fab fa-instagram hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.godaddy.com/" title="GoDaddy" target="_blank">GoDaddy</a></p>
+</footer>
+ 
+
+
+</body>
+</html>
